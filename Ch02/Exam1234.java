@@ -8,12 +8,12 @@ public class Exam1234 {
 
 	     Scanner input = new Scanner(System.in);
 	     
-	     System.out.println("==¼ºÀûÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä==");
-	     System.out.print("±¹¾î : ");
+	     System.out.println("==ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”.==");
+	     System.out.print("êµ­ì–´ : ");
 	     int kor = input.nextInt();
-	     System.out.print("¼öÇĞ : ");
+	     System.out.print("ìˆ˜í•™ : ");
 	     int mat = input.nextInt();
-	     System.out.print("¿µ¾î : ");
+	     System.out.print("ì˜ì–´ : ");
 	     int eng = input.nextInt();
 	     
 	     double total = kor + mat + eng ;
@@ -22,11 +22,11 @@ public class Exam1234 {
 	     char mat1 = (mat >= 90) ? 'A' : ((mat >= 70) ? 'B' : 'C') ;
 	     char eng1 = (eng >= 90) ? 'A' : ((eng >= 70) ? 'B' : 'C') ;
 	     
-	     System.out.println("±¹¾î :" + kor1 + "µî±Ş");
-	     System.out.println("¼öÇĞ :" + mat1 + "µî±Ş");
-	     System.out.println("¿µ¾î :" + eng1 + "µî±Ş");
-	     System.out.println("ÃÑÁ¡ : " + total);
-	     System.out.println("Æò±Õ : " + avg);
+	     System.out.println("êµ­ì–´ :" + kor1 + "ì ");
+	     System.out.println("ìˆ˜í•™ :" + mat1 + "ì ");
+	     System.out.println("ì˜ì–´ :" + eng1 + "ì ");
+	     System.out.println("ì´ì  : " + total);
+	     System.out.println("í“½ê·  : " + avg);
 	     
 
 	}

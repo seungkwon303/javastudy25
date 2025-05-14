@@ -3,21 +3,21 @@ package Ch02;
 public class Exam2505082 {
 
 	public static void main(String[] args) {
-		// Æò±Õ 60Á¡ ÀÌ»óÀÌ¸é ÇÕ°İ 
+		// ï¿½ï¿½ï¿½ 60ï¿½ï¿½ ï¿½Ì»ï¿½ï¿½Ì¸ï¿½ ï¿½Õ°ï¿½ 
 		
 		int a1 = 45 ;
 		int a2 = 84 ;
 		int a3 = 49 ;
 		int total = a1 + a2 + a3 ;
 		double avg = (double)total / 3 ;
-		String result = (avg >= 60) ? "ÇÕ°İ" :  ((avg >= 50) ? "º¸·ù" : "ºÒÇÕ°İ");
-		System.out.println( "Æò±Õ " + (int)avg + "Á¡À¸·Î " + result + "ÀÔ´Ï´Ù." );
+		String result = (avg >= 60) ? "í•©ê²©" :  ((avg >= 50) ? "ë³´ë¥˜" : "ë¶ˆí•©ê²©");
+		System.out.println( "í‰ê·  " + (int)avg + "ì ìœ¼ë¡œ " + result + "ì…ë‹ˆë‹¤." );
 		
 		
-		System.out.println("°¡³ª´Ù¶ó");
-		System.out.println("¸¶¹Ù»ç");
-		System.out.print("°¡³ª´Ù¶ó");
-		System.out.println("¸¶¹Ù»ç");
+		/*
+		 * System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½"); System.out.println("ï¿½ï¿½ï¿½Ù»ï¿½");
+		 * System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½"); System.out.println("ï¿½ï¿½ï¿½Ù»ï¿½");
+		 */
 		
 
 	}

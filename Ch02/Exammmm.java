@@ -7,13 +7,13 @@ public class Exammmm {
 		
 		int value = 17 ;
 		if ( (value % 2 == 0) || (value % 3 == 0) ) { // +
-			System.out.println("2 or 3 ÀÇ ¹è¼öÀÔ´Ï´Ù."); 
+			System.out.println("2 or 3 ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤."); 
 		}
 		if ( (value % 2 == 0) && (value % 3 == 0) ) { // *
-			System.out.println(" 2 ¿Í 3 ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+			System.out.println(" 2 ì™€ 3 ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 		}	
 		if ( !(value % 2 == 0) && !(value % 3 == 0) ) {
-			System.out.println(" XXXXXXXXXXX");
+			System.out.println(" XXXXXX");
 			
 		}	
 		

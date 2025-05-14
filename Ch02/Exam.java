@@ -13,8 +13,8 @@ public class Exam {
 	    total = kor + eng + mat ;
 		avg = total / 3 ;
 		
-		System.out.println( " ÃÑÁ¡ " + total);
-		System.out.println( " Æò±Õ " + avg );
+		System.out.println( " ì´ì  " + total);
+		System.out.println( " í‰ê· " + avg );
 		
 	    int a = 20 ;
 	    int a1 = 0 ;
@@ -23,9 +23,9 @@ public class Exam {
 	    }
 	    
 	    double a2 = (a + a1) / 100  ;
-	    System.out.println(" aÀÇ °ª " + a);
-	    System.out.println("a1ÀÇ °ª" + a1);
-	    System.out.println("a2ÀÇ °ª" + a2);
+	    System.out.println(" aì˜ ê°’ " + a);
+	    System.out.println("a1ì˜ ê°’ " + a1);
+	    System.out.println("a2ì˜ ê°’ " + a2);
 	
 		
 	}

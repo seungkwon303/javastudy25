@@ -8,39 +8,39 @@ public class LoginExam {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("¾ÆÀÌµğ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.print("ì•„ì´ë””ë¥¼ì…ë ¥í•˜ì„¸ìš” :");
 		String id = input.nextLine();
-		System.out.println("ÀÔ·ÂÇÏ½Å ID´Â " + id + "ÀÔ´Ï´Ù."); // ÀÔ·ÂÇÑ ¾ÆÀÌµğ È®ÀÎ
+		System.out.println("ì…ë ¥í•˜ì‹  ì•„ì´ë””ëŠ” : " + id + "ì…ë‹ˆë‹¤."); // ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ È®ï¿½ï¿½
 		
-		System.out.print("¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-		String pw = input.nextLine(); // ÆĞ½º¿öµå È®ÀÎ
-		System.out.print("¾ÏÈ£¸¦ ÇÑ¹ø´õ ÀÔ·ÂÇØÁÖ¼¼¿ä :");
-		String pww = input.nextLine(); // 2Â÷ È®ÀÎ
+		System.out.print("ì•”í˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”..");
+		String pw = input.nextLine(); // ï¿½Ğ½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
+		System.out.print("í•œë²ˆë” ì…ë ¥í•˜ì„¸ìš”. :");
+		String pww = input.nextLine(); // 2ï¿½ï¿½ È®ï¿½ï¿½
 		
 		if(pww.equals(pw)) {
-			System.out.println("È®ÀÎµÇ¾ú½À´Ï´Ù.");
-			System.out.println("========·Î±×ÀÎ========");
+			System.out.println("ì¼ì¹˜í•©ë‹ˆë‹¤.");
+			System.out.println("================");
 		}else {
-			System.out.println("ÀÏÄ¡ÇÏÁö¾Ê½À´Ï´Ù.");
-		}// if¹® Á¾·á
+			System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
+		}// ifï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
-		String loginid = id ; // À§¿¡¼­ ÀÔ·ÂÇÑ ¾ÆÀÌµğ
-		String loginpw = pw = pww ; // À§¿¡¼­ ÀÔ·ÂÇÑ ºñ¹Ğ¹øÈ£
+		String loginid = id ; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½
+		String loginpw = pw = pww ; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½Ğ¹ï¿½È£
 		
 		
-		System.out.println("·Î±×ÀÎÇÏ½Ç ¾ÆÀÌµğ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.println("ì•„ì´ë””ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
 		String id2 = input.nextLine();
 		
-		System.out.println("·Î±×ÀÎÇÏ½Ç ¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.println("ì•”í˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
 		String pw2 = input.nextLine();
-		System.out.println("====Àá½Ã¸¸ ±â´Ù·ÁÁÖ¼¼¿ä====");
+		System.out.println("==ë¡œë”©ì¤‘==");
 		
 		if ( (loginid.equals(id2)) & loginpw.equals(pw2) ) {
-			System.out.print("·Î±×ÀÎµÇ¾ú½À´Ï´Ù!");
+			System.out.print("ë¡œê·¸ì¸ë˜ì—ˆìŠµë‹ˆë‹¤!");
 		}else {
-			System.out.print("ÀÏÄ¡ÇÏÁö¾Ê½À´Ï´Ù.");
-		}//if¹® Á¾·á
+			System.out.print("ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”.");
+		}//ifï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-	} // main ¸Ş¼Òµå Á¾·á
+	} // main ï¿½Ş¼Òµï¿½ ï¿½ï¿½ï¿½ï¿½
 
-} // class Á¾·á
+} // class ï¿½ï¿½ï¿½ï¿½

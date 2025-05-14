@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class Exam250509 {
 
 	public static void main(String[] args) {
-		// Æ÷¸ä ¸í½ÃÀÚ
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 		
 		
 		
 	Scanner input = new Scanner(System.in);
 	
-	System.out.print("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä.");
+	System.out.print("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”.");
 	String name = input.nextLine();
-	System.out.print("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	System.out.print("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	String age = input.nextLine();
-	System.out.print("ÁÖ¼Ò¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	System.out.print("ì£¼ì†Œë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	String adr = input.nextLine();
 	
-	System.out.println(name + "´Ô È¯¿µÇÕ´Ï´Ù.");
-	System.out.println("ÀÌ¸§: " + name);
-	System.out.println("³ªÀÌ: " + age + "¼¼");
-	System.out.println("ÁÖ¼Ò: " + adr);
+	System.out.println(name + "ë‹˜ ì•ˆë…•í•˜ì„¸ìš”.");
+	System.out.println("ì´ë¦„: " + name);
+	System.out.println("ë‚˜ì´: " + age + "ì„¸");
+	System.out.println("ì£¼ì†Œ: " + adr);
 		
 
 	}

@@ -6,7 +6,7 @@ public class abc {
 		
 		int a = 41 ;
 		int b = a % 2 ;
-		String result = (b == 0) ? "Â¦¼ö" : "È¦¼ö" ;
+		String result = (b == 0) ? "ì§ìˆ˜" : "í™€ìˆ˜" ;
 		System.out.println(result);
 
 		
